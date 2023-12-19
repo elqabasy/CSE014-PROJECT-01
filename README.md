@@ -8,8 +8,14 @@ Cover C++ topics.
 - Saif Ahmed
 - Mahros EL-Qabasy
 
-### Resources
-- https://stackoverflow.com/questions/10782554/how-to-organize-a-c-project
 
 ### Tasks
 - Find the best project idea.
+
+### Ideas
+- File and Folder Organizer
+- Advanced Calculator
+
+
+### Resources
+- https://stackoverflow.com/questions/10782554/how-to-organize-a-c-project
