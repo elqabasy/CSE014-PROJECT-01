@@ -12,4 +12,4 @@ Cover C++ topics.
 - https://stackoverflow.com/questions/10782554/how-to-organize-a-c-project
 
 ### Tasks
-- Find the best project idea
+- Find the best project idea.
