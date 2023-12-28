@@ -19,4 +19,7 @@ Cover C++ topics.
 
 
 ### Resources
+- https://terminalroot.com/the-7-best-cpp-frameworks-for-creating-graphical-interfaces/
 - https://stackoverflow.com/questions/10782554/how-to-organize-a-c-project
+- https://www.aloneguid.uk/posts/2021/11/cpp-ui-frameworks
+- https://github.com/webui-dev/webui
