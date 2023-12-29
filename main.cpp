@@ -1,6 +1,6 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    cout << "Hello, CSE014-PROJECT-01!" << endl;
     return 0;
 }
