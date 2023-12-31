@@ -8,11 +8,6 @@
 using namespace std;
 
 
-enum INPUT_ASCII {
-    BACKSPACE = 8, // ASCI CODE FOR BACKSPACE
-    ENTER = 13  // FOR ENTER BUTTON ASCI CODE
-};
-
 // Function that accepts the password
 string getPass(char securityChar = '*', const string& label = "Password: ") {
     // input
