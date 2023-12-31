@@ -2,7 +2,7 @@
 // Created by Mahros on 12/31/2023.
 //
 
-#include "GetPass.h"
+#include "../include/GetPass.h"
 #include <conio.h>
 #include <iostream>
 using namespace std;
