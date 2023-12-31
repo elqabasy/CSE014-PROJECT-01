@@ -31,8 +31,8 @@
 },
 {
   "directory": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\CSE014_PROJECT_01.dir\\source\\LoginSys.cpp.obj -c \"D:\\Galala University\\Years\\Year 1\\Semester 1\\Core\\CSE 014\\Projects\\CSE014-PROJECT-01\\source\\LoginSys.cpp\"",
-  "file": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/source/LoginSys.cpp",
-  "output": "CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\CSE014_PROJECT_01.dir\\source\\Login.cpp.obj -c \"D:\\Galala University\\Years\\Year 1\\Semester 1\\Core\\CSE 014\\Projects\\CSE014-PROJECT-01\\source\\Login.cpp\"",
+  "file": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/source/Login.cpp",
+  "output": "CMakeFiles/CSE014_PROJECT_01.dir/source/Login.cpp.obj"
 }
 ]

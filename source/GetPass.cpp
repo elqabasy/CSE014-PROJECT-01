@@ -2,23 +2,22 @@
 // Created by Mahros on 12/31/2023.
 //
 
-#include "../include/GetPass.h"
 #include <conio.h>
 #include <iostream>
 using namespace std;
 
+#include "../include/GetPass.h"
 
 // Function that accepts the password
-string GetPass(char securityChar, const string& label) {
+string GetPass(const string& label, char securityChar) {
     // input
     string password;
     char inputChar;
     cout << label;
 
     // process
-    bool state = true;
-    while (state) {
-        inputChar = getch();
+    while (true) {
+        inputChar = (char) getch();
 
         // if the inputChar
         if (inputChar == INPUT_ASCII::ENTER) {
@@ -41,5 +40,4 @@ string GetPass(char securityChar, const string& label) {
         password.push_back(inputChar);
         cout << securityChar;
     }
-    // output
 }

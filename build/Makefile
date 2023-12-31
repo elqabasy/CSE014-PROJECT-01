@@ -224,29 +224,29 @@ source/GetPass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.s
 .PHONY : source/GetPass.cpp.s
 
-source/LoginSys.obj: source/LoginSys.cpp.obj
-.PHONY : source/LoginSys.obj
+source/Login.obj: source/Login.cpp.obj
+.PHONY : source/Login.obj
 
 # target to build an object file
-source/LoginSys.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj
-.PHONY : source/LoginSys.cpp.obj
+source/Login.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/Login.cpp.obj
+.PHONY : source/Login.cpp.obj
 
-source/LoginSys.i: source/LoginSys.cpp.i
-.PHONY : source/LoginSys.i
+source/Login.i: source/Login.cpp.i
+.PHONY : source/Login.i
 
 # target to preprocess a source file
-source/LoginSys.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.i
-.PHONY : source/LoginSys.cpp.i
+source/Login.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/Login.cpp.i
+.PHONY : source/Login.cpp.i
 
-source/LoginSys.s: source/LoginSys.cpp.s
-.PHONY : source/LoginSys.s
+source/Login.s: source/Login.cpp.s
+.PHONY : source/Login.s
 
 # target to generate assembly for a file
-source/LoginSys.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.s
-.PHONY : source/LoginSys.cpp.s
+source/Login.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/Login.cpp.s
+.PHONY : source/Login.cpp.s
 
 test/getPassword.obj: test/getPassword.cpp.obj
 .PHONY : test/getPassword.obj
@@ -293,9 +293,9 @@ help:
 	@echo ... source/GetPass.obj
 	@echo ... source/GetPass.i
 	@echo ... source/GetPass.s
-	@echo ... source/LoginSys.obj
-	@echo ... source/LoginSys.i
-	@echo ... source/LoginSys.s
+	@echo ... source/Login.obj
+	@echo ... source/Login.i
+	@echo ... source/Login.s
 	@echo ... test/getPassword.obj
 	@echo ... test/getPassword.i
 	@echo ... test/getPassword.s

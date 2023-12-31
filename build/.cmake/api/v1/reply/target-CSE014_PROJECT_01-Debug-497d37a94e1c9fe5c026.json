@@ -156,7 +156,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "source/LoginSys.cpp",
+			"path" : "source/Login.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
