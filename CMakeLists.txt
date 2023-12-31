@@ -10,7 +10,4 @@ add_executable(CSE014_PROJECT_01 main.cpp
         source/GetPass.cpp
         include/GetPass.h
         test/getPassword.cpp
-        source/LoginSys.cpp
-        source/LoginSys.cpp
-        source/LoginSys.cpp
-        include/LoginSys.h)
+        source/Login.cpp)

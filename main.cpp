@@ -1,10 +1,7 @@
 #include <iostream>
-#include "include/Login.h"
 using namespace std;
-<<<<<<< HEAD
+#include "include/Login.h"
 #include "include/GetPass.h"
-=======
->>>>>>> 6df08b95c486459a11530d0fb47e5300782a471b
 
 
 int main(){
