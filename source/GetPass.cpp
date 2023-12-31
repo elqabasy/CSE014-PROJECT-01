@@ -9,7 +9,7 @@ using namespace std;
 
 
 // Function that accepts the password
-string getPass(char securityChar, const string& label) {
+string GetPass(char securityChar, const string& label) {
     // input
     string password;
     char inputChar;

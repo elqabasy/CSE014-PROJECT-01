@@ -15,6 +15,6 @@ enum INPUT_ASCII {
 };
 
 // Function that receives the password from user using cin
-string getPass(char securityChar = '*', const string& label = "Password: ");
+string GetPass(char securityChar = '*', const string& label = "Password: ");
 
 #endif //CSE014_PROJECT_01_GETPASS_H

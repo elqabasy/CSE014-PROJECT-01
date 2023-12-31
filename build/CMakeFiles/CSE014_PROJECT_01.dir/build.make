@@ -124,12 +124,42 @@ CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\source\GetPass.cpp" -o CMakeFiles\CSE014_PROJECT_01.dir\source\GetPass.cpp.s
 
+CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj: CMakeFiles/CSE014_PROJECT_01.dir/flags.make
+CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj: D:/Galala\ University/Years/Year\ 1/Semester\ 1/Core/CSE\ 014/Projects/CSE014-PROJECT-01/test/getPassword.cpp
+CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj: CMakeFiles/CSE014_PROJECT_01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj -MF CMakeFiles\CSE014_PROJECT_01.dir\test\getPassword.cpp.obj.d -o CMakeFiles\CSE014_PROJECT_01.dir\test\getPassword.cpp.obj -c "D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\test\getPassword.cpp"
+
+CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\test\getPassword.cpp" > CMakeFiles\CSE014_PROJECT_01.dir\test\getPassword.cpp.i
+
+CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\test\getPassword.cpp" -o CMakeFiles\CSE014_PROJECT_01.dir\test\getPassword.cpp.s
+
+CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj: CMakeFiles/CSE014_PROJECT_01.dir/flags.make
+CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj: D:/Galala\ University/Years/Year\ 1/Semester\ 1/Core/CSE\ 014/Projects/CSE014-PROJECT-01/source/LoginSys.cpp
+CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj: CMakeFiles/CSE014_PROJECT_01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj -MF CMakeFiles\CSE014_PROJECT_01.dir\source\LoginSys.cpp.obj.d -o CMakeFiles\CSE014_PROJECT_01.dir\source\LoginSys.cpp.obj -c "D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\source\LoginSys.cpp"
+
+CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\source\LoginSys.cpp" > CMakeFiles\CSE014_PROJECT_01.dir\source\LoginSys.cpp.i
+
+CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\source\LoginSys.cpp" -o CMakeFiles\CSE014_PROJECT_01.dir\source\LoginSys.cpp.s
+
 # Object files for target CSE014_PROJECT_01
 CSE014_PROJECT_01_OBJECTS = \
 "CMakeFiles/CSE014_PROJECT_01.dir/main.cpp.obj" \
 "CMakeFiles/CSE014_PROJECT_01.dir/lib/main.cpp.obj" \
 "CMakeFiles/CSE014_PROJECT_01.dir/lib/source/File.cpp.obj" \
-"CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.obj"
+"CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.obj" \
+"CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj" \
+"CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj"
 
 # External object files for target CSE014_PROJECT_01
 CSE014_PROJECT_01_EXTERNAL_OBJECTS =
@@ -138,11 +168,13 @@ CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/main.cpp.obj
 CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/lib/main.cpp.obj
 CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/lib/source/File.cpp.obj
 CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.obj
+CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj
+CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj
 CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/build.make
 CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/linkLibs.rsp
 CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/objects1.rsp
 CSE014_PROJECT_01.exe: CMakeFiles/CSE014_PROJECT_01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CSE014_PROJECT_01.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Galala University\Years\Year 1\Semester 1\Core\CSE 014\Projects\CSE014-PROJECT-01\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CSE014_PROJECT_01.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CSE014_PROJECT_01.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

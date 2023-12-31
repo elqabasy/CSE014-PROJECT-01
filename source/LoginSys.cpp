@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+#include "../include/GetPass.h"
 
 void signUp();
 void signIn();
@@ -89,7 +90,7 @@ void signIn(){
         signIn();
     }
     
-    cout << "\nEnter your password: "; cin >> password;
+    cout << "\nEnter your password: "; password = GetPass('*');
     if (password != password_check){
         cout << "\n| Wrong password!\n";
         signIn();

@@ -224,6 +224,54 @@ source/GetPass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.s
 .PHONY : source/GetPass.cpp.s
 
+source/LoginSys.obj: source/LoginSys.cpp.obj
+.PHONY : source/LoginSys.obj
+
+# target to build an object file
+source/LoginSys.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj
+.PHONY : source/LoginSys.cpp.obj
+
+source/LoginSys.i: source/LoginSys.cpp.i
+.PHONY : source/LoginSys.i
+
+# target to preprocess a source file
+source/LoginSys.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.i
+.PHONY : source/LoginSys.cpp.i
+
+source/LoginSys.s: source/LoginSys.cpp.s
+.PHONY : source/LoginSys.s
+
+# target to generate assembly for a file
+source/LoginSys.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.s
+.PHONY : source/LoginSys.cpp.s
+
+test/getPassword.obj: test/getPassword.cpp.obj
+.PHONY : test/getPassword.obj
+
+# target to build an object file
+test/getPassword.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj
+.PHONY : test/getPassword.cpp.obj
+
+test/getPassword.i: test/getPassword.cpp.i
+.PHONY : test/getPassword.i
+
+# target to preprocess a source file
+test/getPassword.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.i
+.PHONY : test/getPassword.cpp.i
+
+test/getPassword.s: test/getPassword.cpp.s
+.PHONY : test/getPassword.s
+
+# target to generate assembly for a file
+test/getPassword.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSE014_PROJECT_01.dir\build.make CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.s
+.PHONY : test/getPassword.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,6 +293,12 @@ help:
 	@echo ... source/GetPass.obj
 	@echo ... source/GetPass.i
 	@echo ... source/GetPass.s
+	@echo ... source/LoginSys.obj
+	@echo ... source/LoginSys.i
+	@echo ... source/LoginSys.s
+	@echo ... test/getPassword.obj
+	@echo ... test/getPassword.i
+	@echo ... test/getPassword.s
 .PHONY : help
 
 

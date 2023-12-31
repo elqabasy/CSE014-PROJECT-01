@@ -22,5 +22,17 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\CSE014_PROJECT_01.dir\\source\\GetPass.cpp.obj -c \"D:\\Galala University\\Years\\Year 1\\Semester 1\\Core\\CSE 014\\Projects\\CSE014-PROJECT-01\\source\\GetPass.cpp\"",
   "file": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/source/GetPass.cpp",
   "output": "CMakeFiles/CSE014_PROJECT_01.dir/source/GetPass.cpp.obj"
+},
+{
+  "directory": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\CSE014_PROJECT_01.dir\\test\\getPassword.cpp.obj -c \"D:\\Galala University\\Years\\Year 1\\Semester 1\\Core\\CSE 014\\Projects\\CSE014-PROJECT-01\\test\\getPassword.cpp\"",
+  "file": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/test/getPassword.cpp",
+  "output": "CMakeFiles/CSE014_PROJECT_01.dir/test/getPassword.cpp.obj"
+},
+{
+  "directory": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\CSE014_PROJECT_01.dir\\source\\LoginSys.cpp.obj -c \"D:\\Galala University\\Years\\Year 1\\Semester 1\\Core\\CSE 014\\Projects\\CSE014-PROJECT-01\\source\\LoginSys.cpp\"",
+  "file": "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/source/LoginSys.cpp",
+  "output": "CMakeFiles/CSE014_PROJECT_01.dir/source/LoginSys.cpp.obj"
 }
 ]
