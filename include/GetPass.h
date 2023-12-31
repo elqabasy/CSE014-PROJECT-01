@@ -4,9 +4,17 @@
 
 #ifndef CSE014_PROJECT_01_GETPASS_H
 #define CSE014_PROJECT_01_GETPASS_H
+#include <iostream>
+using namespace std;
+
+
+// define the ascii codes
 enum INPUT_ASCII {
     BACKSPACE = 8, // ASCII CODE FOR BACKSPACE
     ENTER = 13  // FOR ENTER BUTTON ASCII CODE
 };
+
+// Function that receives the password from user using cin
+string getPass(char securityChar = '*', const string& label = "Password: ");
 
 #endif //CSE014_PROJECT_01_GETPASS_H

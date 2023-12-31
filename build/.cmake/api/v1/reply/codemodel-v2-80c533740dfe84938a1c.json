@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CSE014_PROJECT_01",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CSE014_PROJECT_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CSE014_PROJECT_01-Debug-a99b03ad19d3a20fb3c5.json",
+					"name" : "CSE014_PROJECT_01",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/build",
+		"source" : "D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

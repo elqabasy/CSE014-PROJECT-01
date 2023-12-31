@@ -8,4 +8,5 @@ add_executable(CSE014_PROJECT_01 main.cpp
         lib/source/File.cpp
         lib/include/File.h
         source/GetPass.cpp
-        include/GetPass.h)
+        include/GetPass.h
+        test/getPassword.cpp)

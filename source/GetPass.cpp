@@ -9,15 +9,15 @@ using namespace std;
 
 
 // Function that accepts the password
-string getPass(char securityChar = '*', const string& label = "Password: ") {
+string getPass(char securityChar, const string& label) {
     // input
     string password;
     char inputChar;
     cout << label;
 
     // process
-    // bool state =;
-    while (true) {
+    bool state = true;
+    while (state) {
         inputChar = getch();
 
         // if the inputChar

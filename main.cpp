@@ -1,9 +1,9 @@
 #include <iostream>
+using namespace std;
 #include "lib/include/File.h"
 
 
 int main() {
-
-    std::cout << "Hello, World!" << std::endl;
+    cout << "Hello, World!" << "\n";
     return 0;
 }

@@ -1,0 +1,3 @@
+D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/build/CMakeFiles/CSE014_PROJECT_01.dir
+D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/build/CMakeFiles/edit_cache.dir
+D:/Galala University/Years/Year 1/Semester 1/Core/CSE 014/Projects/CSE014-PROJECT-01/build/CMakeFiles/rebuild_cache.dir
