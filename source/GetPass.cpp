@@ -14,9 +14,9 @@ enum INPUT_ASCII {
 };
 
 // Function that accepts the password
-string getPass(char securityChar = '*', string label = "Password: ") {
+string getPass(char securityChar = '*', const string& label = "Password: ") {
     // input
-    string password = "";
+    string password;
     char inputChar;
     cout << label;
 
