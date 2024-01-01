@@ -5,37 +5,45 @@ using namespace std;
 
 
 int main(){
-    cout << "  -----------------------------------------------------------------------------------------------\n"
-         << " |                                                                                               |\n"
-         << " |                                           Main Menu                                           |\n"
-         << " |                                                                                               |\n"
-         << "  -----------------------------------------------------------------------------------------------\n\n";
-    cout << "  -----------------------------------------------------------------------------------------------\n"
-         << " |    1. Sign In        --> Sign into an existing account.                                       |\n"
-         << " |    2. Sign Up        --> Create a new account.                                                |\n"
-         << " |    0. Exit           --> Shutdown.                                                            |\n"
-         << "  -----------------------------------------------------------------------------------------------\n\n";
+    try{
+        system("cls");
+        cout << "  -----------------------------------------------------------------------------------------------\n"
+            << " |                                                                                               |\n"
+            << " |                                           Main Menu                                           |\n"
+            << " |                                                                                               |\n"
+            << "  -----------------------------------------------------------------------------------------------\n\n";
+        cout << "  -----------------------------------------------------------------------------------------------\n"
+            << " |    1. Sign In        --> Sign into an existing account.                                       |\n"
+            << " |    2. Sign Up        --> Create a new account.                                                |\n"
+            << " |    0. Exit           --> Shutdown.                                                            |\n"
+            << "  -----------------------------------------------------------------------------------------------\n\n";
 
-    cout << "Select an option: ";
+        cout << "Select an option: ";
 
-    unsigned short int choice; cin >> choice;
+        unsigned short int choice; cin >> choice;
 
-    switch (choice){
-        case 1:
-            signIn();
-            break;
-        
-        case 2:
-            signUp();
-            break;
-        
-        case 0:
-            cout << "| Hope you come back later.\n";
-            return EXIT_SUCCESS;
+        switch (choice){
+            case 1:
+                signIn();
+                break;
+            
+            case 2:
+                signUp();
+                break;
+            
+            case 0:
+                cout << "| Hope you come back later.\n";
+                return EXIT_SUCCESS;
 
-        default:
-            main();
-            break;
+            default:
+                main();
+                break;
+        }
+        return EXIT_SUCCESS;
+        system("pause"); // for prevent console window from closing
+    }catch(const std::exception& ERROR){
+        cout << "Unexpected error: " << ERROR.what() << '\n';
+        system("pause");
+        main();
     }
-    return EXIT_SUCCESS;
 }
