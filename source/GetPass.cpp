@@ -4,9 +4,9 @@
 
 #include <conio.h>
 #include <iostream>
+#include "../include/GetPass.h"
 using namespace std;
 
-#include "../include/GetPass.h"
 
 // Function that accepts the password
 string GetPass(const string& label, char securityChar) {
@@ -20,11 +20,11 @@ string GetPass(const string& label, char securityChar) {
         inputChar = (char) getch();
 
         // if the inputChar
-        if (inputChar == INPUT_ASCII::ENTER) {
+        if (inputChar == Constants::ASCII::ENTER) {
             cout << endl;
             return password;
         }
-        else if (inputChar == INPUT_ASCII::BACKSPACE && password.length() != 0) {
+        else if (inputChar == Constants::ASCII::BACKSPACE && password.length() != 0) {
             password.pop_back();
 
             // remove the printed character quickly
@@ -33,7 +33,7 @@ string GetPass(const string& label, char securityChar) {
             continue;
         }
 
-        else if (inputChar == INPUT_ASCII::BACKSPACE && password.length() == 0) {
+        else if (inputChar == Constants::ASCII::BACKSPACE && password.length() == 0) {
             continue;
         }
 
