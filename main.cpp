@@ -1,7 +1,7 @@
 #include <iostream>
-using namespace std;
 #include "include/Login.h"
 #include "include/GetPass.h"
+using namespace std;
 
 
 int main(){
@@ -31,11 +31,11 @@ int main(){
         
         case 0:
             cout << "| Hope you come back later.\n";
-            return 0;
+            return EXIT_SUCCESS;
 
         default:
             main();
             break;
     }
-    return 0;
+    return EXIT_SUCCESS;
 }

@@ -18,6 +18,7 @@ namespace TextFormatting{
         for(char & i : str){
             i = (char) tolower(i);
         }
+        return str;
     }
 
     // convert first char of string to Title.
@@ -28,11 +29,7 @@ namespace TextFormatting{
 
     // making the first word lowercase. Then, you capitalize the first letter of each word that follows.
     string toCamelCase(string str) {
-        bool shuffleIsUpper = false; // this for set first char to lower
-        char *ptrSecondChar = &str[0];
-        for(char & i : str){
-            shuffleIsUpper = false;
-        }
+        return str;
     }
 
     // convert string to kebab-case
@@ -44,13 +41,13 @@ namespace TextFormatting{
     // convert string to snake_case
     // separate each word with a dash character, "_" or dash.
     string toSnakeCase(const string& str) {
-
+        return str;
     }
 
     // convert string to PascalCase
     // capitalize the first letter of each word that follows.
     string toPascalCase(const string& str) {
-
+        return str;
     }
 
     // split string
